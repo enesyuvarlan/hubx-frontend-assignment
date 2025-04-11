@@ -1,6 +1,6 @@
-import PhoneImage from '../../assets/mock/section-4/phone-4.svg';
+import PhoneImage from '../../assets/mock/section-1/phone-1.svg';
 import { PhoneLayout } from './PhoneLayout';
 
 export const SectionDocumentScanner = ({}) => {
-  return <PhoneLayout phoneImage={PhoneImage}> </PhoneLayout>;
+  return <PhoneLayout phoneImage={PhoneImage}></PhoneLayout>;
 };
