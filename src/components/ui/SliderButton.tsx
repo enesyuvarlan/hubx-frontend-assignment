@@ -18,7 +18,7 @@ export const SliderButton = ({
   return (
     <button
       onClick={onClick}
-      className={`flex group items-center justify-center w-[300px] md:w-full border h-[124px] bg-[#ffffff] ${
+      className={`flex group items-center justify-center w-[300px] md:w-full border h-[124px] bg-backgroundWhite ${
         activeButton ? 'bg-primaryHover' : 'border-transparent'
       } focus:bg-primaryHover hover:border hover:border-primary transition-colors`}
     >

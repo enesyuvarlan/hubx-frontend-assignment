@@ -15,7 +15,12 @@ export const FeaturesPage = () => {
   return (
     <>
       {activeSection && (
-        <FeaturesSections key={activeSection.id}>
+        <FeaturesSections
+          key={activeSection.id}
+          title={activeSection.title}
+          cap={activeSection.cap}
+          description={activeSection.description}
+        >
           <activeSection.section />
         </FeaturesSections>
       )}

@@ -7,12 +7,22 @@ export type PhoneLayoutProps = {
 };
 export type FeaturesSectionsProps = {
   children: ReactNode;
+  title: string;
+  cap: string;
+  description: string;
+};
+export type FeaturesTitlesCardProps = {
+  title: string;
+  cap: string;
+  description: string;
 };
 
-//Container
+// Container
 export type ContainerProps = {
   children: React.ReactNode;
 } & React.ComponentPropsWithoutRef<'div'>;
+
+// Section
 
 //UI
 export type CircularProgressBarProps = {
@@ -26,6 +36,7 @@ export type CircularProgressBarProps = {
   isActive?: boolean;
   children?: React.ReactNode;
 };
+
 export interface SliderButtonProps {
   id: number;
   icon: string;
