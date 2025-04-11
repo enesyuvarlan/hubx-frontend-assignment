@@ -1,7 +1,11 @@
+import { HubXApp } from './components/HubXApp';
+
 export function App() {
   return (
     <>
-      <main></main>
+      <main>
+        <HubXApp />
+      </main>
     </>
   );
 }
