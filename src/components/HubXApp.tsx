@@ -1,3 +1,4 @@
+import { FeaturesPage } from './features/FeaturesPage';
 import { FeaturesSlider } from './features/FeaturesSlider';
 import { Container } from './layout/Container';
 import { SectionContainer } from './layout/SectionContainer';
@@ -7,7 +8,7 @@ export const HubXApp = () => {
     <div className="flex-col">
       <Container>
         <SectionContainer>
-          aaa
+          <FeaturesPage />
         </SectionContainer>
         <FeaturesSlider />
       </Container>

@@ -1,0 +1,10 @@
+import { FeaturesSectionsProps } from '../../types/props';
+
+export const FeaturesSections = ({ children }: FeaturesSectionsProps) => {
+  return (
+    <div className="grid grid-cols-1 lg:grid-cols-2 px-6 lg:px-14">
+      <div className="order-2 lg:order-1">{children}</div>
+      <div className="order-1 lg:order-2 w-full my-auto pb-5 mx-auto lg:ml-auto max-w-[556px]"></div>
+    </div>
+  );
+};

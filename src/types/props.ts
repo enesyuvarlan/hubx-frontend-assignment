@@ -1,3 +1,14 @@
+import { ReactNode } from 'react';
+
+// Features
+export type PhoneLayoutProps = {
+  phoneImage: string;
+  children?: React.ReactNode;
+};
+export type FeaturesSectionsProps = {
+  children: ReactNode;
+};
+
 //Container
 export type ContainerProps = {
   children: React.ReactNode;

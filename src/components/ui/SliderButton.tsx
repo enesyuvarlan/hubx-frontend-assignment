@@ -36,7 +36,7 @@ export const SliderButton = ({
               src={icon}
               alt={title}
               className={`w-8 h-8 transition-all ${
-                activeButton ? 'text-primary' : 'text-border'
+                activeButton ? 'text-primary' : 'text-[rgba(102, 102, 102, 1)]'
               }`}
             />
           </CircularProgressBar>
