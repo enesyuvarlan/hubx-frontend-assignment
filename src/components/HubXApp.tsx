@@ -1,3 +1,4 @@
+import { FeaturesSlider } from './features/FeaturesSlider';
 import { Container } from './layout/Container';
 import { SectionContainer } from './layout/SectionContainer';
 
@@ -8,6 +9,7 @@ export const HubXApp = () => {
         <SectionContainer>
           aaa
         </SectionContainer>
+        <FeaturesSlider />
       </Container>
     </div>
   );
