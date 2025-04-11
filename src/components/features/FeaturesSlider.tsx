@@ -14,7 +14,7 @@ export const FeaturesSlider = ({}: FeaturesSliderProps) => {
 
   return (
     <div className="bg-background flex flex-col mx-auto">
-      <div className="flex overflow-x-auto no-scrollbar gap-[1px]">
+      <div className="flex overflow-x-auto no-scrollbar scroll-smooth snap-x snap-mandatory gap-[1px]">
         {sliderData.map((item) => (
           <SliderButton
             id={item.id}

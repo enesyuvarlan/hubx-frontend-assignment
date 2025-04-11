@@ -18,8 +18,8 @@ export const SliderButton = ({
   return (
     <button
       onClick={onClick}
-      className={`flex group items-center justify-center w-[300px] md:w-full border h-[124px] bg-backgroundWhite ${
-        activeButton ? 'bg-primaryHover' : 'border-transparent'
+      className={`flex group items-center justify-center min-w-[300px] md:w-full border h-[124px] bg-backgroundWhite snap-center ${
+        activeButton ? 'bg-primaryHover border-none' : 'border-transparent'
       } focus:bg-primaryHover hover:border hover:border-primary transition-colors`}
     >
       <div className="flex items-center justify-center w-full">
@@ -35,7 +35,7 @@ export const SliderButton = ({
             <img
               src={icon}
               alt={title}
-              className={`w-8 h-8 transition-all ${
+              className={`w-8 h-8 transition-colors ${
                 activeButton ? 'text-primary' : 'text-[rgba(102, 102, 102, 1)]'
               }`}
             />
