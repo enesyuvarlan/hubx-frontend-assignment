@@ -4,6 +4,13 @@ module.exports = {
     "./src/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      xs: "375px",
+      sm: "435px",
+      md: "768px",
+      lg: "1000px",
+      xl: "1280px",
+    },
     extend: {
       colors: {
         primary: 'rgb(3, 129, 255)',
