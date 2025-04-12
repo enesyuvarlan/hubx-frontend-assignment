@@ -2,12 +2,12 @@ import { ReactComponent as PhoneImage } from '../../assets/mock/section-2/phone-
 import SignIcon from '../../assets/mock/section-2/sign.svg';
 import Stamp from '../../assets/mock/section-2/stamp.svg';
 import { motion } from 'framer-motion';
-import { PhoneLayout } from './PhoneLayout';
 import { motionVariantsSignStampItem } from '../../data/motion.Data';
 
 export const SectionSignStamp = ({}) => {
   return (
-    <PhoneLayout phoneImage={PhoneImage}>
+    <div className="relative flex justify-center flex-shrink-0">
+      <PhoneImage className="w-[230px] sm:w-[300px] md:w-[366px] h-auto mx-10" />
       <motion.div
         variants={motionVariantsSignStampItem}
         initial="hidden"
@@ -27,6 +27,6 @@ export const SectionSignStamp = ({}) => {
       >
         <img src={Stamp} alt="Stamp Icon" />
       </motion.div>
-    </PhoneLayout>
+    </div>
   );
 };

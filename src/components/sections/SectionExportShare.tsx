@@ -1,11 +1,9 @@
-import React from 'react';
 import { ReactComponent as PhoneImage } from '../../assets/mock/section-5/phone-5.svg';
 import BackButton from '../../assets/mock/section-5/back-button.svg';
 import PdfIcon from '../../assets/mock/section-5/pdf.svg';
 import JpgIcon from '../../assets/mock/section-5/jpg.svg';
 import TxtIcon from '../../assets/mock/section-5/txt.svg';
 import { motion } from 'framer-motion';
-import { PhoneLayout } from './PhoneLayout';
 import { motionVariantsExportShareItem } from '../../data/motion.Data';
 
 type ExportShareItem = {
@@ -23,7 +21,8 @@ const items: ExportShareItem[] = [
 
 export const SectionExportShare = ({}) => {
   return (
-    <PhoneLayout phoneImage={PhoneImage}>
+    <div className="relative flex justify-center flex-shrink-0">
+      <PhoneImage className="w-[230px] sm:w-[300px] md:w-[366px] h-auto mx-10" />{' '}
       <div className="absolute bottom-0 max-w-[420px]">
         <div className="relative flex justify-between">
           {items.map((item) => (
@@ -53,6 +52,6 @@ export const SectionExportShare = ({}) => {
           </motion.div>
         </div>
       </div>
-    </PhoneLayout>
+    </div>
   );
 };

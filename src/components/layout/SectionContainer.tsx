@@ -13,7 +13,7 @@ export const ContainerOuter = ({ children, ...props }: ContainerProps) => {
 export const ContainerInner = ({ children, ...props }: ContainerProps) => {
   return (
     <div {...props}>
-      <div className="pt-32">{children}</div>
+      <div className="pt-14 md:pt-32">{children}</div>
     </div>
   );
 };

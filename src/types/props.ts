@@ -7,9 +7,6 @@ export type PhoneLayoutProps = {
 };
 export type FeaturesSectionsProps = {
   children: ReactNode;
-  title: string;
-  cap: string;
-  description: string;
 };
 export type FeaturesTitlesCardProps = {
   title: string;

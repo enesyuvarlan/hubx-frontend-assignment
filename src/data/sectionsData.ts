@@ -4,7 +4,7 @@ import { SectionDocumentScanner } from '../components/sections/SectionDocumentSc
 import { SectionExportShare } from '../components/sections/SectionExportShare';
 import { SectionSignStamp } from '../components/sections/SectionSignStamp';
 
-interface SectionData {
+export interface SectionData {
   id: number;
   section: React.ComponentType;
   title: string;
