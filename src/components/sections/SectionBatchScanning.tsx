@@ -2,6 +2,7 @@ import { ReactComponent as PhoneImage } from '../../assets/mock/section-3/Phone-
 import FilePreview from '../../assets/mock/section-3/file-peview.svg';
 import { motion } from 'framer-motion';
 import { stackFileVariant } from '../../data/motion.Data';
+import { PhoneImageIcon } from '../ui/PhoneImageIcon';
 
 export const SectionBatchScanning = ({}) => {
   const files = [
@@ -30,11 +31,11 @@ export const SectionBatchScanning = ({}) => {
 
   return (
     <div className="relative flex justify-center flex-shrink-0">
-      <PhoneImage className="w-[230px] sm:w-[300px] md:w-[366px] h-auto mx-10" />
+      <PhoneImageIcon icon={PhoneImage}/>
       {files.map(({ bottom, scale, zIndex, custom, alt }, index) => (
         <motion.div
           key={index}
-          className={`absolute ${bottom} h-auto min-w-[194px] px-16 z-${zIndex}`}
+          className={`absolute ${bottom} h-auto min-w-[194px] px-[56px] sm:px-[60px] md:px-[76px] z-${zIndex}`}
           style={{ transform: `scale(${scale})` }}
         >
           <motion.img

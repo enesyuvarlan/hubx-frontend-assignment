@@ -5,6 +5,7 @@ import JpgIcon from '../../assets/mock/section-5/jpg.svg';
 import TxtIcon from '../../assets/mock/section-5/txt.svg';
 import { motion } from 'framer-motion';
 import { motionVariantsExportShareItem } from '../../data/motion.Data';
+import { PhoneImageIcon } from '../ui/PhoneImageIcon';
 
 type ExportShareItem = {
   id: number;
@@ -22,7 +23,7 @@ const items: ExportShareItem[] = [
 export const SectionExportShare = ({}) => {
   return (
     <div className="relative flex justify-center flex-shrink-0">
-      <PhoneImage className="w-[230px] sm:w-[300px] md:w-[366px] h-auto mx-10" />{' '}
+      <PhoneImageIcon icon={PhoneImage}/>
       <div className="absolute bottom-0 max-w-[420px]">
         <div className="relative flex justify-between">
           {items.map((item) => (
