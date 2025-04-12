@@ -14,7 +14,7 @@ export const FeaturesPage = () => {
 
   return (
     <>
-      {activeSection && (
+      {activeSection ? (
         <FeaturesSections
           key={activeSection.id}
           title={activeSection.title}
@@ -23,6 +23,10 @@ export const FeaturesPage = () => {
         >
           <activeSection.section />
         </FeaturesSections>
+      ) : (
+        <div>
+          <p>Bir hata oluştu! Aktif bölüm bulunamadı.</p>
+        </div>
       )}
     </>
   );
