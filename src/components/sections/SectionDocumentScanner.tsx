@@ -1,4 +1,4 @@
-import PhoneImage from '../../assets/mock/section-1/phone-1.svg';
+import { ReactComponent as PhoneImage } from '../../assets/mock/section-1/phone-1.svg';
 import { PhoneLayout } from './PhoneLayout';
 
 export const SectionDocumentScanner = ({}) => {

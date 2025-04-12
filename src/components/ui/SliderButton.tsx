@@ -5,7 +5,7 @@ import { CircularProgressBar } from './CircularProgressBar';
 
 export const SliderButton = ({
   id,
-  icon,
+  icon: Icon,
   title,
   onClick,
 }: SliderButtonProps) => {
@@ -32,11 +32,9 @@ export const SliderButton = ({
             pathColor="rgba(3, 129, 255, 1)"
             isActive={activeButton}
           >
-            <img
-              src={icon}
-              alt={title}
+            <Icon
               className={`w-8 h-8 transition-colors ${
-                activeButton ? 'text-primary' : 'text-[rgba(102, 102, 102, 1)]'
+                activeButton ? 'text-primary' : 'text-iconColor'
               }`}
             />
           </CircularProgressBar>

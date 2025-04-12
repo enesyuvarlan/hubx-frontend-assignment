@@ -19,6 +19,7 @@ module.exports = {
         textDark: 'rgba(11, 23, 42, 1)',
         background: 'rgba(245, 245, 247, 1)',
         backgroundWhite: 'rgba(255, 255, 255, 1)',
+        iconColor: 'rgba(102, 102, 102, 1)',
       },
       fontFamily: {
         sans: ['SF Pro Display', 'system-ui', 'sans-serif'],

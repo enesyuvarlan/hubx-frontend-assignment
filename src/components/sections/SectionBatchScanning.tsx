@@ -1,5 +1,5 @@
-import PhoneImage from '../../assets/mock/section-3/Phone-3.svg';
-import FilePreview from '../../assets/mock/section-3/file-peview.png';
+import { ReactComponent as PhoneImage } from '../../assets/mock/section-3/Phone-3.svg';
+import FilePreview from '../../assets/mock/section-3/file-peview.svg';
 import { motion } from 'framer-motion';
 import { PhoneLayout } from './PhoneLayout';
 import { stackFileVariant } from '../../data/motion.Data';

@@ -1,8 +1,8 @@
-import DocumentIcon from '../assets/icons/document.svg';
-import CertifiedIcon from '../assets/icons/certified.svg';
-import ScannerIcon from '../assets/icons/scanner.svg';
-import FilterIcon from '../assets/icons/filter.svg';
-import ExportIcon from '../assets/icons/export.svg';
+import { ReactComponent as DocumentIcon } from '../assets/icons/document.svg';
+import { ReactComponent as CertifiedIcon } from '../assets/icons/certified.svg';
+import { ReactComponent as ScannerIcon } from '../assets/icons/scanner.svg';
+import { ReactComponent as FilterIcon } from '../assets/icons/filter.svg';
+import { ReactComponent as ExportIcon } from '../assets/icons/export.svg';
 
 export const sliderData = [
   {

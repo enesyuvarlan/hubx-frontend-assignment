@@ -1,5 +1,5 @@
 import React from 'react';
-import PhoneImage from '../../assets/mock/section-5/phone-5.svg';
+import { ReactComponent as PhoneImage } from '../../assets/mock/section-5/phone-5.svg';
 import BackButton from '../../assets/mock/section-5/back-button.svg';
 import PdfIcon from '../../assets/mock/section-5/pdf.svg';
 import JpgIcon from '../../assets/mock/section-5/jpg.svg';

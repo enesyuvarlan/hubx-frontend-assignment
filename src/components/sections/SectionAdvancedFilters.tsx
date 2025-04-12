@@ -1,4 +1,4 @@
-import PhoneImage from '../../assets/mock/section-4/phone-4.svg';
+import { ReactComponent as PhoneImage } from '../../assets/mock/section-4/phone-4.svg';
 import Filter1Icon from '../../assets/mock/section-4/filter-1.svg';
 import Filter2Icon from '../../assets/mock/section-4/filter-2.svg';
 import { motion } from 'framer-motion';

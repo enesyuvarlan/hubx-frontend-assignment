@@ -1,8 +1,8 @@
-import { ReactNode } from 'react';
+import { ReactNode, SVGProps } from 'react';
 
 // Features
 export type PhoneLayoutProps = {
-  phoneImage: string;
+  phoneImage: React.ComponentType<SVGProps<SVGSVGElement>>;
   children?: React.ReactNode;
 };
 export type FeaturesSectionsProps = {
@@ -39,7 +39,7 @@ export type CircularProgressBarProps = {
 
 export interface SliderButtonProps {
   id: number;
-  icon: string;
+  icon: React.ComponentType<SVGProps<SVGSVGElement>>;
   title: string;
   isActive?: boolean;
   onClick: React.MouseEventHandler<HTMLButtonElement>;
